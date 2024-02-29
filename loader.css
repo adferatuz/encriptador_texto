@@ -1,0 +1,81 @@
+
+.loadership_RWJGF {
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 70px;
+    color: #1d1c1c;
+    font-size: 30px;
+    background: linear-gradient(#63ecca,#09ccccbd, #ccc8c8);
+    border-radius: 10px;
+    margin: 20px 0;
+    font-family: "Swanky and Moo Moo", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
+  .loadership_RWJGF div {
+    position: absolute;
+    top: 0px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    animation: loadership_RWJGF_wave alternate 1.2s infinite;
+    animation-timing-function: cubic-bezier(.56,-0.01,.48,1);
+  }
+
+  .loadership_RWJGF div:nth-child(1) {
+        animation-delay: 0.00s;
+        left: 0px;
+    }
+.loadership_RWJGF div:nth-child(2) {
+        animation-delay: 0.15s;
+        left: 11px;
+    }
+.loadership_RWJGF div:nth-child(3) {
+        animation-delay: 0.30s;
+        left: 22px;
+    }
+.loadership_RWJGF div:nth-child(4) {
+        animation-delay: 0.45s;
+        left: 33px;
+    }
+.loadership_RWJGF div:nth-child(5) {
+        animation-delay: 0.60s;
+        left: 44px;
+    }
+.loadership_RWJGF div:nth-child(6) {
+        animation-delay: 0.75s;
+        left: 55px;
+    }
+.loadership_RWJGF div:nth-child(7) {
+        animation-delay: 0.90s;
+        left: 66px;
+    }
+.loadership_RWJGF div:nth-child(8) {
+        animation-delay: 1.05s;
+        left: 77px;
+    }
+.loadership_RWJGF div:nth-child(9) {
+        animation-delay: 1.20s;
+        left: 88px;
+    }
+.loadership_RWJGF div:nth-child(10) {
+        animation-delay: 1.35s;
+        left: 99px;
+    }
+.loadership_RWJGF div:nth-child(11) {
+        animation-delay: 1.50s;
+        left: 110px;
+    }
+
+
+  @keyframes loadership_RWJGF_wave {
+    0%, 100% { 
+      transform: translatey(0px);
+    }
+    50% { 
+      transform: translatey(36px);
+    }
+  }

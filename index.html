@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Quicksand:wght@300..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Quicksand:wght@300..700&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+   <main class="parent ">
+        <header class="encabezado ">
+            <div class="loadership_RWJGF"><div>E</div><div>n</div><div>c</div><div>r</div><div>i</div><div>p</div><div>t</div><div>a</div><div>d</div><div>o</div><div>r</div></div>
+        </header>
+
+        <section class="contenedor-texto">
+            <textarea class="caja-texto" id="texto-encriptar" placeholder=""  ></textarea>
+            <label for="texto-encriptar" class="placeholder">Escribe el texto que deseas encriptar...</label>
+
+            <div class="contenedor-btns">
+                <button id="btnEncriptar" class="btn btn-encriptar">
+                    Encriptar</button>
+                <button id="btnDesencriptar" class="btn btn-desencriptar" disabled>
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+
+        
+        <section id="contenedorDesencriptacion elemento2" class="contenedor-desencriptacion ">
+            
+            <div id="imagen-contenedor-desencriptador" class="contenedor-desencriptacion elemento1">
+                
+            </div>
+            <textarea class="caja-texto fondo-imagen" id="texto-desencriptar" placeholder=""  required></textarea>
+
+            <div id="btnsCopiarBorrar" class="contenedor-btns">
+                <button id="btnCopiar" class="btn btn-copiar">
+                    <div class="contenedor-img-btns img-copiar">
+                    </div>
+                    Copiar
+                </button>
+                <button id="btnBorrar" class="btn btn-borrador"><div class="contenedor-img-btns img-borrar"></div>Borrar</button>
+            </div>
+
+        </section>
+        
+        <div id="miModal" class="modal">
+            <div  id="modalContenido" >
+              </div>
+
+        </div>
+
+        <footer class="rodapie">
+            <div class="contenedor-icon"></div>
+            <div class="contenedor-icon"></div>
+            
+        </footer>
+   </main>
+
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
