@@ -23,13 +23,13 @@
         </header>
 
         <section class="contenedor-texto">
-            <textarea class="caja-texto" id="texto-encriptar" placeholder=""  ></textarea>
+            <textarea class="caja-texto" id="texto-encriptar" placeholder="" pattern="[a-z\s]*" title="Solo se permiten letras minúsculas y espacios" ></textarea>
             <label for="texto-encriptar" class="placeholder">Escribe el texto que deseas encriptar...</label>
 
             <div class="contenedor-btns">
                 <button id="btnEncriptar" class="btn btn-encriptar">
                     Encriptar</button>
-                <button id="btnDesencriptar" class="btn btn-desencriptar" disabled>
+                <button id="btnDesencriptar" class="btn btn-desencriptar" >
                     Desencriptar
                 </button>
             </div>
