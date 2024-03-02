@@ -1,4 +1,4 @@
-<h1> Encriptador de Texto</h1>
+<h1 align="center"> Encriptador de Texto</h1>
 
 ![Esta es la imagen de fondo usada en la aplicacion](https://raw.githubusercontent.com/adferatuz/encriptador_texto/master/imagenes/244.jpg)
 
