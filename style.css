@@ -93,13 +93,13 @@ p{
     box-shadow: 3px 3px 5px #000;
 
 }
-.rodapie div:nth-child(1){
+.linkedin{
     background-image: url('imagenes/logotipo-de-linkedin.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.rodapie div:nth-child(2){
+.github{
     background-image: url('imagenes/github.png');
     background-position: center;
     background-repeat: no-repeat;
