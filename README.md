@@ -1,6 +1,6 @@
 <h1 align="center"> Encriptador de Texto</h1>
 
-![Esta es la imagen de fondo usada en la aplicacion](https://raw.githubusercontent.com/adferatuz/encriptador_texto/master/imagenes/244.jpg)
+![Esta es la imagen de fondo usada en la aplicacion]([https://raw.githubusercontent.com/adferatuz/encriptador_texto/master/imagenes/244.jpg](https://raw.githubusercontent.com/adferatuz/encriptador_texto/master/imagenes/Captura%20de%20pantalla%20(8).png))
 
 - Estado del proyecto: en construccion.
 
